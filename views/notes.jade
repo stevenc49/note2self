@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1.
+        Notes
+    ul
+        each note, i in notes
+            li: asdf #{note.title} - #{note.content}
